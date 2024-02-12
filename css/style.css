@@ -1,0 +1,41 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  
+}
+
+.testimonials {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  gap: 1em;
+}
+img {
+  border-radius: 30px;
+}
+.daniel-first {
+  border-radius: 5px;
+  background-color: hsl(263, 55%, 52%);
+  grid-column: 1 / span 2;
+}
+
+.jonathan-second {
+  background-color: hsl(217, 19%, 35%);
+}
+.jeanette-third {
+  background-color: hsl(0, 0%, 100%);
+}
+.patrick-fourth {
+  background-color: hsl(219, 29%, 14%);
+  grid-column: 2 / span 2;
+}
+.kira-fifth {
+  background-color: hsl(0, 0%, 100%);
+  grid-row-start: 1 ;
+  grid-column: 4;
+  grid-row-end: 3;
+}
+.image-2{
+  f
+}
